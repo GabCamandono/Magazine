@@ -2002,3 +2002,26 @@ button[type="button"] {
     text-align: left;
   }
 }
+
+.pagination > * {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  margin: 0 5px;
+  
+}
+
+.pagination .next, .pagination .prev {
+  background-color: transparent;
+}
+
+.pagination .current {
+  background-color: #fff;
+  outline: 1px solid #000;
+  color: #000;
+}

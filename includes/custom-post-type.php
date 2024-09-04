@@ -40,7 +40,7 @@ function fyrre_custom_post() {
         'public' => true,
         'capability_type' => 'post',
         'show_ui' => true,
-        'supports' => array('title', 'editor')
+        'supports' => array('title', 'editor', 'thumbnail')
     );
     register_post_type('authors', $authors_args);
 
