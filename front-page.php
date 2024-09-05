@@ -134,7 +134,7 @@
             ?>
 
                 </div>
-                <a href="<?php echo site_url('/magazines')?>" class="link-arrow"
+                <a href="<?php echo site_url('/magazine')?>" class="link-arrow"
                     >All Magazines
                     <svg class="icon-sm" role="image">
                     <use xlink:href="<?php echo get_template_directory_uri()?>/img/sprite.svg#icon-arrow-right"></use>
@@ -207,7 +207,7 @@
                 class="flex items-center justify-between py-10 pb-20 border-t border-dark"
             >
                 <h2 class="uppercase">Podcast</h2>
-                <a href="<?php echo site_url('/podcasts')?>" class="link-arrow right" id="podcast-link"
+                <a href="<?php echo site_url('/podcast')?>" class="link-arrow right" id="podcast-link"
                 >All Episodes
                 <svg class="icon-sm" role="image">
                     <use xlink:href="<?php echo get_template_directory_uri()?>/img/sprite.svg#icon-arrow-right"></use>
@@ -287,7 +287,7 @@
               class="flex items-center justify-between py-10 pb-20 border-t border-dark"
              >
               <h2 class="uppercase">Author</h2>
-              <a href="<?php echo site_url('/authors')?>" class="link-arrow right" id="author-link"
+              <a href="<?php echo site_url('/author')?>" class="link-arrow right" id="author-link"
                 >All Authors
                 <svg class="icon-sm" role="image">
                   <use xlink:href="<?php echo get_template_directory_uri()?>/img/sprite.svg#icon-arrow-right"></use>
